@@ -72,7 +72,7 @@ bars2 = alt.Chart(bd).mark_bar().encode(
 chart = alt.vconcat(point , bars2)
 chart1= alt.vconcat(chart,bars)
 
-chart1.save('chart.html')
+chart1.save('chart1.html')
 #chart1=alt.vconcat(chart,bars2)
 
 chart1
